@@ -30,44 +30,48 @@ label {
 }
 
 input {
-    border: 1px solid #eee;
+    border: 1px solid rgb(209, 209, 209);
     padding: 12px;
-    outline: none
+    outline: none;
+    border-radius: 5px;
 }
 
 button {
     cursor: pointer;
     padding: 12px;
-    background: #7C5CBF;
+    background: #00ff00;
     border: none;
-    color: #fff;
+    color: #ffffff;
     font-size: 16px;
+    border-radius: 5px;
     transition: background .3s ease
 }
 
 button:hover {
-    background: #6b47b8
+    background: #09f5e1;
+    color: black;
 }
 
 button:disabled {
     cursor: default;
-    background: #7c5cbf94
+    background: #3dcfe994
 }
 
 .centered-form {
-    background: #333744;
+    background: #000000;
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 .centered-form__box {
     box-shadow: 0 0 17px 1px #1D1F26;
-    background: #F7F7FA;
+    background: #ffffff;
     padding: 24px;
-    width: 250px
+    width: 250px;
+    border-radius: 5px;
 }
 
 .centered-form button {
@@ -86,7 +90,7 @@ button:disabled {
 .chat__sidebar {
     height: 100vh;
     color: #fff;
-    background: #333744;
+    background: #000000;
     width: 225px;
     overflow-y: scroll
 }
@@ -151,7 +155,7 @@ button:disabled {
 .room-title {
     font-weight: 400;
     font-size: 22px;
-    background: #2c2f3a;
+    background: #020d36;
     padding: 24px
 }
 
